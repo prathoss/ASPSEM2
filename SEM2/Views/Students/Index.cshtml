@@ -1,0 +1,29 @@
+﻿@section Scripts{ 
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".BTNStudentDetail").click(function() {
+                var stdId = $(this).attr("strId");
+                alert(stdId);
+                $("#studentDetail").load("students/detail/" + stdId);
+            })
+        })
+        </script>
+}
+<h2>Students</h2>
+<table>
+    <tr>
+        <th>First name</th>
+        <th>Last name</th>
+    </tr>
+    @foreach (Student student in Model)
+    {
+        <tr>
+            <td>@student.Name</td>
+            <td>@student.LastName</td>
+            <td><button class="BTNStudentDetail" strId="@student.Id">Detail</button></td>
+        </tr>
+    }
+</table>
+<div id="studentDetail">
+    Click button for details...
+</div>

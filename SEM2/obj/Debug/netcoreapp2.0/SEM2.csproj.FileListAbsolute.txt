@@ -1,0 +1,11 @@
+D:\UnicornCollege\CS\ASPSEM2\SEM2\bin\Debug\netcoreapp2.0\SEM2.deps.json
+D:\UnicornCollege\CS\ASPSEM2\SEM2\bin\Debug\netcoreapp2.0\SEM2.runtimeconfig.json
+D:\UnicornCollege\CS\ASPSEM2\SEM2\bin\Debug\netcoreapp2.0\SEM2.runtimeconfig.dev.json
+D:\UnicornCollege\CS\ASPSEM2\SEM2\bin\Debug\netcoreapp2.0\SEM2.dll
+D:\UnicornCollege\CS\ASPSEM2\SEM2\obj\Debug\netcoreapp2.0\SEM2.csprojResolveAssemblyReference.cache
+D:\UnicornCollege\CS\ASPSEM2\SEM2\obj\Debug\netcoreapp2.0\SEM2.csproj.CoreCompileInputs.cache
+D:\UnicornCollege\CS\ASPSEM2\SEM2\obj\Debug\netcoreapp2.0\SEM2.AssemblyInfoInputs.cache
+D:\UnicornCollege\CS\ASPSEM2\SEM2\obj\Debug\netcoreapp2.0\SEM2.AssemblyInfo.cs
+D:\UnicornCollege\CS\ASPSEM2\SEM2\bin\Debug\netcoreapp2.0\SEM2.pdb
+D:\UnicornCollege\CS\ASPSEM2\SEM2\obj\Debug\netcoreapp2.0\SEM2.dll
+D:\UnicornCollege\CS\ASPSEM2\SEM2\obj\Debug\netcoreapp2.0\SEM2.pdb

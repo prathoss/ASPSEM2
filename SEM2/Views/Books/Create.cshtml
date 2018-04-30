@@ -1,0 +1,33 @@
+﻿@model Book
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Title)
+        @Html.EditorFor(m => m.Title)
+        @Html.ValidationMessageFor(m => m.Title)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Author)
+        @Html.EditorFor(m => m.Author)
+        @Html.ValidationMessageFor(m => m.Author)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.PublishDate)
+        @Html.EditorFor(m => m.PublishDate)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Description)
+        @Html.EditorFor(m => m.Description)
+    </div>
+    <div class="form-group">
+        @Html.ValidationSummary()
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" />
+    </div>
+}
